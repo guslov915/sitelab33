@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3.3</title>
+    <script src="script.js">
+	</script>
+	
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+function null_data() {
+const avg = document.getElementById("average");
+avg.textContent = 0;
+}
+</script>
+<body>
+    <div class="info">
+        <label>Факультет</label>
+        <input type="text" id="faculty">
+        <label>Курс</label>
+        <input type="text" id="course">
+        <label>Группа</label>
+        <select id="groups">
+        </select>
+        <label>ФИО</label>
+        <select id="names">
+        </select>
+    </div>
+
+    <table>
+        <tbody id="data">
+            <tr>
+                <th>Предмет</th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Средний балл: <span id="average" ></span></p>
+    <button id="nullify" >Проверить</button>
+	<input type="button" id="nullifyy" value="Отменить" onclick="null_data()">
+</body>
+</html>

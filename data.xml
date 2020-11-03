@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+    <student>
+        <faculty>ИВТ</faculty>
+        <course>1</course>
+        <group>ИП-915</group>
+        <name>Корхов Иван</name>
+        <scores>
+            <subject>
+                <name>Мат логика</name>
+                <score>0</score>
+            </subject>
+            <subject>
+                <name>ЭЭС</name>
+                <score>2</score>
+            </subject>
+            <subject>
+                <name>Английский</name>
+                <score>1</score>
+            </subject>
+            <subject>
+                <name>Интернет технологии</name>
+                <score>1</score>
+            </subject>
+        </scores>
+    </student>
+    <student>
+        <faculty>МТС</faculty>
+        <course>2</course>
+        <group>ИП-900</group>
+        <name>Гуслов Егор</name>
+        <scores>
+            <subject>
+                <name>Мат логика</name>
+                <score>2</score>
+            </subject>
+            <subject>
+                <name>ЭЭС</name>
+                <score>2</score>
+            </subject>
+            <subject>
+                <name>Английский</name>
+                <score>1</score>
+            </subject>
+            <subject>
+                <name>Интернет технологии</name>
+                <score>0</score>
+            </subject>
+        </scores>
+    </student>
+<student>
+        <faculty>ФИЗ</faculty>
+        <course>1</course>
+        <group>ИП-915</group>
+        <name>Иванов Олег</name>
+        <scores>
+            <subject>
+                <name>Мат логика</name>
+                <score>1</score>
+            </subject>
+            <subject>
+                <name>ЭЭС</name>
+                <score>1</score>
+            </subject>
+            <subject>
+                <name>Английский</name>
+                <score>2</score>
+            </subject>
+            <subject>
+                <name>Интернет технологии</name>
+                <score>2</score>
+            </subject>
+        </scores>
+    </student>
+</students>
